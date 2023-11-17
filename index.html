@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> <!--define el conjunto de caracteres utilizados-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--Indica que esta metaetiqueta es equivalente a un encabezado HTTP y 
+    se utiliza para proporcionar instrucciones especiales al navegador-->
+    <!-- compatibilidad con un determinado navegador-->
+    <!--compatibilidad con un determinado navegador-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--configura la escala para diapositivos móviles-->
+    <title>DRAGON BALL</title>
+    <link rel="stylesheet" href="">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #34495e; /* cambia el color de fondo a un tono gris oscuro*/
+            color: white ; /*cambia el color de texto a blanco*/ 
+        }
+        header{
+            background-color: #e74c3c; /* rojo oscuro para el encabezado*/
+            text-align: center;
+            padding: 20px;
+        }
+ 
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+        h1{
+            color: rgb(255, 255, 255);
+            font-size: 3em;
+            margin: 0;
+         }
+       nav{
+        background-color: #3498db;
+        padding: 20px;
+        margin: 10px;
+         }
+       
+       nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+       }
+
+       nav ul li {
+        display: inline;
+        margin-right: 20px;
+       }
+
+       nav ul li a{
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 1.2em;
+       }
+
+       main{
+        padding: 20px;
+       }
+
+       section{
+        background-color:  #2ecc71; /*verde claro para las secciones*/ 
+        padding: 20px;
+        margin: 20px 0;
+       }
+
+       section h2{
+        color: #ffffff;
+        font-size: 2em;
+        margin-bottom: 10px;
+       }
+
+       section p{
+        font-size: 1.2em;
+        line-height: 1.5;
+        color: #ffffff;
+       }
+
+       section ul{
+        font-size: 1.2em;
+        color: #ffffff;
+        margin-top: 10px;
+       }
+
+       footer {
+        background-color: #333;
+        color: #ecf0f1;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+       }
+
+    </style>
+    <script></script><!--link de javascript-->
+</head>
+<body>
+    <!--contenido principal de la página-->
+    <header>
+        <h1>Dragon ball</h1><!--encabezado de la página-->
+    </header>
+
+    <nav><!--menú de navegación-->
+        <ul><!--lista desordenada-->
+            <li><a href="#saga1">Saga sayayin</a></li>
+            <li><a href="#saga2">Saga freezer</a></li>
+            <li><a href="#saga3">Saga de cell</a></li>
+            <li><a href="#saga4">Saga de majin boo</a></li>
+            
+        </ul>
+    </nav>
+
+    <main>
+        <!-- contenido principal de la página-->
+        <!--otros elementos como imagenes, listas, enlaces , etc-->
+        <section id="saga1">
+            <h2>Saga sayayin</h2>
+            <p>La historia comienza con la llegada de raditz a la tierra, secuestra al hijo de goku etc </p>
+            <img src="img/MicrosoftTeams-image.png" alt="goku vs vegeta"> 
+            <p>Episodios notables:</p>
+            <ol> <!--lista ordenada-->
+                <li>La llegada de Raditz</li>
+                <li>Goku entrena con Kaio-Sama</li>
+                <li>La batalla en la Tierra contra los Saiyan</li>
+            </ol>
+        </section>
+
+        <section id="saga2">
+            <h2>Saga de freezer</h2>
+            <p> Comienza con la llegada del villano al planeta Namek, en busca de las Dragon Balls. </p>
+            <img src="img/saga de freezerr.png" alt="goku vs freezer">
+            <p>Episodios notables:</p>
+            <ol><!--lista ordenada-->
+                <li>La llegada de Freezer</li>
+                <li>La transformacion de Goku</li>
+                <li>La batalla de Goku y Freezer</li>
+            </ol>
+        </section>
+
+        <section id="saga3">
+            <h2>Saga de cell</h2>
+            <p>Comienza con la llegada de Trunks del futuro al presente. Trunks es un Super Saiyan de un futuro alternativo </p>
+            <img src="img/saga de cell.png" alt="gohan vs cell"> 
+            <p>Episodios notables:</p>
+            <ol><!--lista ordenada-->
+                <li>La llegada de Trunks</li>
+                <li>Entrenamiento en la maquina del tiempo</li>
+                <li>La batalla de Gohan y Cell</li>
+            </ol>
+        </section>
+
+        <section id="saga4">
+            <h2>Saga de majin boo</h2>
+            <p>La saga de Majin Boo comienza con la llegada de Babidi, un mago malvado que busca liberar a Majin Boo </p>
+            <img src="img/saga de majin boo.png" alt="goku vs majin boo"> 
+            <p>Episodios notables:</p>
+            <ol><!--lista ordenada-->
+                <li>La llegada de Majin bo</li>
+                <li>La muerte de vegeta</li>
+                <li>La batalla contra Majin Boo</li>
+            </ol>
+        </section>
+
+    </main>
+    <aside>
+        <!--contenido adicional o complementario-->
+    </aside>
+
+    <footer>
+        &copy;2023 Dragon Ball Fan Club<!--pie de pagina-->
+    </footer>
+
+</body>
+</html>
